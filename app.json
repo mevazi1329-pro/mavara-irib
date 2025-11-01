@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "MAVARA IRIB",
+    "slug": "mavara-irib",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "package": "com.mavara.irib",
+      "permissions": [
+        "CAMERA",
+        "RECORD_AUDIO",
+        "VIBRATE"
+      ]
+    }
+  }
+}
